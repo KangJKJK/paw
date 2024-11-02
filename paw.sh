@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 환경 변수 설정
-export WORK="/root/TimeFarmBot"
+export WORK="/root/PawsBot"
 export NVM_DIR="$HOME/.nvm"
 
 # 색상 정의
@@ -11,18 +11,18 @@ YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
 NC='\033[0m' # 색상 초기화
 
-echo -e "${GREEN}Timefarm 봇을 설치합니다.${NC}"
+echo -e "${GREEN}Paws 봇을 설치합니다.${NC}"
 echo -e "${GREEN}스크립트작성자: https://t.me/kjkresearch${NC}"
-echo -e "${GREEN}출처: https://github.com/Freddywhest/TimeFarmBot${NC}"
+echo -e "${GREEN}출처: https://github.com/Freddywhest/PawsBot${NC}"
 
 echo -e "${GREEN}설치 옵션을 선택하세요:${NC}"
-echo -e "${YELLOW}1. Timefarm 봇 새로 설치${NC}"
+echo -e "${YELLOW}1. Paws 봇 새로 설치${NC}"
 echo -e "${YELLOW}2. 재실행하기${NC}"
 read -p "선택: " choice
 
 case $choice in
   1)
-    echo -e "${GREEN}Timefarm 봇을 새로 설치합니다.${NC}"
+    echo -e "${GREEN}Paws 봇을 새로 설치합니다.${NC}"
 
     # 사전 필수 패키지 설치
     echo -e "${YELLOW}시스템 업데이트 및 필수 패키지 설치 중...${NC}"
@@ -37,7 +37,7 @@ case $choice in
 
     # GitHub에서 코드 복사
     echo -e "${YELLOW}GitHub에서 코드 복사 중...${NC}"
-    git clone https://github.com/Freddywhest/TimeFarmBot.git
+    git clone https://github.com/Freddywhest/PawsBot.git
     cd "$WORK"
 
     # Node.js 20 버전 설치 및 사용
