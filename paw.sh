@@ -78,7 +78,7 @@ case $choice in
         echo "USE_PROXY_FROM_JS_FILE=TRUE"
         echo "WORD_PHRASE_LENGTH=12"
         echo "AUTO_COMPLETE_QUESTS=TRUE"
-        echo "USE_PROXY_FROM_TXT_FILE=FALSE"
+        echo "USE_PROXY_FROM_TXT_FILE=TRUE"
         echo "DELAY_BETWEEN_QUEST=$delay_between_quest"
         echo "AUTO_CREATE_AND_CONNECT_WALLET=$auto_create_and_connect_wallet"
         echo "REFERRAL_CODE=$referral_code"
